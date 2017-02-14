@@ -1,20 +1,33 @@
+html {
+    background-color: #21399b;
+}
 .header{
-    margin-left:43%;
-    margin-bottom:10%;
+    /*margin-left:35%;*/
+    /*margin-bottom:10%;*/
+    text-align: center;
+    background-color: rebeccapurple;
+    background-image: url(headbg.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding:39px 0;
+    color: #3eff55;
+
+
     
 }
 div{
-    margin-left: 12%
+    padding-left: 12%;
+    padding: 5px 0 5px 12%;
 }
-.tagline{
-    background-color: #004F6A;
+.tagline, .contact{
+    background-color: rgb(55, 82, 164);
     color: white
-    
 }
-.contact{
-    background-color: #004F6A;
-    color: white;
-}
-a href{
     
+.skills{
+    background-color: #21399b;
+    color: #3eff55;
+}
+a{
+    color: red
 }
